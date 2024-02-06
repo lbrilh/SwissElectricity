@@ -1,6 +1,3 @@
-# This serves as a template which will guide you through the implementation of this task.  It is advised
-# to first read the whole template and get a sense of the overall structure of the code before trying to fill in any of the TODO gaps
-# First, we import necessary libraries:
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
@@ -150,7 +147,6 @@ def modeling_and_prediction(X_train, y_train, X_test):
     assert y_pred.shape == (100,), "Invalid data shape"
     return y_pred
 
-# Main function. You don't have to change this
 if __name__ == "__main__":
     # Data loading
     X_train, y_train, X_test = data_loading()
